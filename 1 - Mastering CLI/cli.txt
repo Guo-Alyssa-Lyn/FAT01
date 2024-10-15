@@ -1,0 +1,28 @@
+Graphical User Interface (GUI) vs Command-line Interface (CLI)
+
+- Make directory
+mkdir [directory_name]
+
+- Remove directory
+rmdir [directory_name]
+
+- Print/Present Working Directory
+pwd
+
+- List all folders and files
+ls
+
+- Change Directory
+cd [directory_name/path]
+
+- Go back one directory
+cd ..
+
+- Create a file
+touch [filename.extension]
+
+- Delete a file
+rm [filename.extension]
+
+- Clear the terminal 
+clear
