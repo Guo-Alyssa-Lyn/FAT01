@@ -20,3 +20,15 @@ git log --oneline
 
 -Initialize a Repository
 git init
+
+- Branching 
+
+-List all the branches 
+git branch -add
+
+- Create a branch 
+git branch (branch-name)
+
+- Switch 
+git checkout [branch-name]
+git switch [branch-name]
