@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="fullname-id">Name:</label>
+            <input 
+            type="text" 
+            name="user-fullname" id="fullname-id" 
+            placeholder="John Doe" 
+            required />
+        </div>
+        <div>
+            <label for="email-id">Email:</label>
+            <input type="email" name="user-email" id="email-id" placeholder="johndoe@example.com" required />
+        </div>
+        <div>
+            <label for="password-id">Password:</label>
+            <input type="password" name="user-password" id="password-id" placeholder="************" required />
+        </div>
+        <div>
+            <label for="age-id">Age:</label>
+            <input 
+            type="number" 
+            name="user-age" 
+            id="age-id" 
+            placeholder="30"
+            min="18"
+            max="100"
+            required />
+            <div>
+                <label for="message-id">Message:</label>
+                <br>
+                <textarea 
+                name="user-message" id="message-id" placeholder="What's on your mind." 
+                rows="10" 
+                cols="30">
+                </textarea>
+            </div>
+
+            <div>
+                <label for="gender-id">Gender:</label>
+                <select name="user-gender" id="gender-id">
+                    <option value="none" selected disabled hidden>-- Select your Gender --</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="birthdate-id">Birthdate:</label>
+                <input type="date" name="user-birthdate" id="birthdate-id" required>
+            </div>
+
+            <div>
+                <input type="radio" name="status" id="public-id" value="public" />
+                <label for="public-id">Public</label>
+                <input type="radio" name="status" id="private-id" value="private" />
+                <label for="private-id">Private</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="genre" id="comedy-id" value="comedy" />
+                <label for="comedy-id">Comedy</label>
+                <input type="checkbox" name="genre" id="horror-id" value="horror" />
+                <label for="horror-id">Horror</label>
+                <input type="checkbox" name="genre" id="scifi-id" value="scifi" />
+                <label for="scifi-id">Scifi</label>
+                <input type="checkbox" name="genre" id="action-id" value="action" />
+                <label for="action-id">Action</label>
+                <input type="checkbox" name="genre" id="anime-id" value="anime" />
+                <label for="anime-id">Anime</label>
+                <input type="checkbox" name="genre" id="fiction-id" value="fiction" />
+                <label for="fiction-id">Fiction</label>
+                <input type="checkbox" name="genre" id="romance-id" value="romance" />
+                <label for="romance-id">Romance</label>
+                <input
+                type="checkbox"
+                name="genre"
+                id="documentary-id"
+                value="documentary"
+                />
+                <label for="documentary-id">Documentary</label>
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+
+        </div>
+    </form>
+</body>
+</html>
