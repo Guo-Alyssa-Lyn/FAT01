@@ -1,0 +1,95 @@
+#text-styling {
+    /* Font fallback - if all is not available, next sans-serif font will be applied */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* FONT WEIGHT */
+    /* Keyword Values */
+    font-weight: bold;
+    font-weight: normal;
+    font-weight: lighter;
+    font-weight: bolder;
+
+    /* Numeric Values */
+    /* [100 - 950] */
+    font-weight: 100; /* Thin */
+    font-weight: 200; /* Extra Light */
+    font-weight: 300; /* Light */
+    font-weight: 950; /* Extra Bold */
+
+    font-weight: normal;
+
+    /* FONT STYLES */
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal; /* default */
+
+    /* TEXT ALIGN */
+    text-align: center;
+    text-align: justify;
+    text-align: right;
+    text-align: left; /* default */
+
+    /* LINE HEIGHT */
+    line-height: normal;
+    line-height: 1.5;
+    line-height: 150%;
+    line-height: 36px;
+
+    /* LETTER SPACING */
+    letter-spacing: normal;
+    letter-spacing: 4px; /* adds space */
+    letter-spacing: -4px; /* Removes space */
+    letter-spacing: 1px;
+}
+
+#text-decoration {
+    text-decoration: none;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: overline;
+    
+    text-decoration-style: solid; /* default */
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: wavy;
+    text-decoration-style: dashed;
+
+    text-decoration-color: red;
+
+    text-decoration-thickness: auto;
+    text-decoration-thickness: 5px;
+    text-decoration-thickness: 50%;
+
+    text-decoration: 3px underline solid blue;
+}
+
+#colors {
+    /* COLOR NAMES */
+    color: white;
+    background-color: yellow;
+
+    /* RGB */
+    /* RGB - Red Green Blue [0, 255] */
+    /* RGBA - Alpha (0.0) transparent (1.0) fully opaque */
+    color: yellow;
+    background-color: rgba(199, 9, 237, 1) ;
+
+    /* Hexadecimal */
+    /* RRGGBB 0-9 A-F */
+    color: #e5e5e5;
+    background-color: #14213d;
+}
+
+#absolute-unit-px{
+    font-size: 24px; 
+}
+
+#relative-unit-em {
+    font-size: 3em;
+}
+
+/* root em */
+/* relative root element */
+#relative-unit-rem {
+    font-size: 3rem;
+}
